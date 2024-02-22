@@ -1,6 +1,5 @@
 # MLProject
 
-SPAM vs NON-SPAM EMAILS
+Heart Disease Prediction Modeling
 
-For solving the problem of Classifying mails as spam or not spam, i implemented a Logistic Regression Machine Learning Supervised Model in python which does binary classification of the instance into either of two classes.
-The code uses the vectorized implementation using the numpy library which does parallel computing for the calculations in the code, this makes the code run immensely faster than the normal looping implementation. The dataset i used for training the model was taken from UCI Machine Learning Repositry named as Spambase. I divided the data into train and test splits with an 80 to 20 ratio respectively, doing this helped me in testing the trained model on unseen data showing the trained model's Performance. The model accurately predicted emails [data related to emails] as spam or non-spam 91 percent of the unseen data using the trained model.
+To address the task of predicting heart disease, I developed a machine learning model using logistic regression in Python. This supervised learning model classifies instances into two categories: presence or absence of heart disease. I employed a vectorized implementation utilizing the NumPy library for efficient parallel computation, resulting in significantly faster execution compared to traditional looping methods. The dataset utilized for training was sourced from the UCI Machine Learning Repository, specifically the Heart Disease dataset. I partitioned the data into training and testing sets with an 80-20 split, enabling evaluation of the model's performance on unseen data. The model achieved an impressive 91% accuracy in distinguishing instances of heart disease from non-cases when tested on unseen data.
